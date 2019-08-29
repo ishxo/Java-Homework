@@ -9,7 +9,10 @@ public class Cordinate {
         double y = scanner.nextDouble();
 
         if (x <= 1 && y <= 1) {
-            if (y >= x && y <= (-1 * x) && y <= x && y >= (-1 * x)) {
+            if (y >= 0 && y >= x && y >= -x ) {
+                System.out.println("Точка попадает в заштрихованную область");
+            }
+             else if (y <= 0 && y <= x && y <= -x) {
                 System.out.println("Точка попадает в заштрихованную область");
             } else {
                 System.out.println("Точка не попадает в заштрихованную область");
