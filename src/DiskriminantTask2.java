@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class DiskriminantTask2 {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите  переменное  a");
@@ -10,7 +8,6 @@ public class DiskriminantTask2 {
         int b = scanner.nextInt();
         System.out.println("Введите  переменное  c");
         int c = scanner.nextInt();
-
         if (a != 0) {
             double D = b * b - 4 * a * c;
             if (D > 0) {
@@ -27,7 +24,6 @@ public class DiskriminantTask2 {
         } else {
             System.out.println("a не может быть равен 0");
         }
-
         scanner.close();
     }
 }
