@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-//Array reverse inplementation
+//Array reverse implementation
 public class ArrayReverse {
     public static void main(String[] args) {
         String[] array = {"first", "second", "third", "fourth", "fifth"};
