@@ -17,3 +17,5 @@ public class MinDigitCount {
         System.out.println("минимальная цифра встречается " + count + " раза");
     }
 }
+
+
